@@ -77,9 +77,11 @@ The model leverages CLIP's vision-language pre-training to understand constructi
 
 | Task | mIoU | Dice Score |
 |------|--------|--------------|
-| Drywall Taping Area | 0.2862 | 0.4137 |
-| Wall Cracks | 0.2559 | 0.3423 |
-| **Average** | **0.2710** | **0.3780** |
+| Drywall Taping Area | 0.2789 | 0.4032 |
+| Wall Cracks | 0.2618 | 0.3489 |
+| **Average** | **0.2703** | **0.3760** |
+
+Best combined validation checkpoint (epoch 15): **Val IoU = 0.2713**, **Val Dice = 0.3790**.
 
 ### Inference Performance
 
@@ -292,6 +294,10 @@ Contributions are welcome! Please feel free to:
 
 ## References
 
-- **CLIPSeg Paper:** Image Segmentation using Text and Image Prompts (https://arxiv.org/abs/2112.10003)
-- **CLIP Paper:** Learning Transferable Models for Unsupervised Learning (https://arxiv.org/abs/2103.14030)
-- **Datasets:** Roboflow Universe (https://universe.roboflow.com/)
+- Luddecke, T. and Ecker, A. (2022). *Image Segmentation Using Text and Image Prompts*. CVPR 2022.
+- CLIPSeg paper (arXiv): https://arxiv.org/abs/2112.10003
+- Roboflow Universe, Drywall-Join-Detect Dataset: https://universe.roboflow.com/objectdetect-pu6rn/drywall-join-detect
+- Roboflow Universe, Cracks Dataset: https://universe.roboflow.com/fyp-ny1jt/cracks-3ii36
+- Hugging Face Model Hub, CIDAS/clipseg-rd64-refined: https://huggingface.co/CIDAS/clipseg-rd64-refined
+- GitHub Repository: https://github.com/AnmolMogalayi/origin-drywall-segmentation-QA
+- Google Colab Notebook: https://colab.research.google.com/drive/1uz4oO8WMNHU3cQozK_Lmm7tJuvzcBvqD?usp=sharing
