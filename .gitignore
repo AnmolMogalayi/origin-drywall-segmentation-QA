@@ -1,0 +1,31 @@
+# Datasets (downloaded automatically)
+Drywall-Join-Detect-1/
+cracks-1/
+
+# Generated predictions
+predictions/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

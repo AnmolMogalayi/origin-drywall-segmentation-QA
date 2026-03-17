@@ -1,0 +1,10 @@
+torch
+torchvision
+transformers
+datasets
+roboflow
+opencv-python-headless
+matplotlib
+accelerate
+pillow
+numpy
